@@ -16,13 +16,13 @@ public class TestController {
 	
 	@RequestMapping(value="home", method = RequestMethod.POST)
 	public String getHome() {
-		testDTO test = new testDTO();
+		/*testDTO test = new testDTO();
 		
 		test.setId("test");
 		test.setPassword("1234");
 		
 		testService.insertTest(test);
-		
+		*/
 		return "Hello World!";
 	}
 }
